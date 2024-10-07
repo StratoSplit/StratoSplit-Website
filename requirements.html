@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">  
+        <meta name="milestone" content="Portfolio">
+        <title>Operation RM</title>  
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&amp;family=Poppins:wght@300&amp;display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+      </head>
+
+      <body data-new-gr-c-s-check-loaded="14.1199.0" data-gr-ext-installed="">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-dark">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-items">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <a href="./index.html" class="navbar-brand">
+               <i class="bi bi-house-door"></i>
+           </a>
+           <div class="collapse navbar-collapse" id="nav-items">
+               <ul class="nav navbar-nav left_space">
+                   <li class="nav-item dropdown">
+                       <a href="#" class="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                       <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                           <a class="dropdown-item" href="./index.html#team-section">Meet the Team</a>
+                           <a class="dropdown-item" href="./index.html#learn_more">Learn More</a>
+                       </div>
+                   </li>
+                   <li class="nav-item dropdown">
+                       <a href="#" class="nav-link dropdown-toggle" id="projectDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project Details</a>
+                       <div class="dropdown-menu" aria-labelledby="projectDropdown">
+                           <a class="dropdown-item" href="./project_description.html">Project Description</a>
+                           <a class="dropdown-item" href="./solution.html">Envisioned Solution</a>
+                           <a class="dropdown-item" href="./requirements.html">Requirements</a>
+                           <a class="dropdown-item" href="./technologies.html">Technologies</a>
+                       </div>
+                   </li>
+                   <li class="nav-item">
+                       <a href="./documents.html" class="nav-link">Documents</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="./schedule.html" class="nav-link">Schedule</a>
+                   </li>
+               </ul>
+           </div>
+       </nav>
+        <section id="req_background_image">
+     
+        </section>
+        <section id="description">
+           <div>
+              <h1>Requirements</h1>
+              <p class="pad-bottom">As part of the requirement acquisition process, various functional, non-functional, and
+                 environmental requirements were developed through discussions with General Dynamics
+                 Mission Systems. The following contains a brief overview of these requirements.
+                 For a full list of requirements, see the
+                 <a href="./documents.html">documents</a> page.
+              </p>
+              <h3>Functional Requirements</h3>
+              <p>The following high-level functional requirements are as follows:
+                 </p><ul>
+                    <li>The solution should be developed as a mobile application.</li>
+                    <li>The application allows the user to select a radio waveform.</li>
+                    <li>The application allows the user to provision a selected radio waveform.</li>
+                    <li>The application allows the user to activate a radio waveform.</li>
+                    <li>The application supports transfering files over the connected radio simulator.</li>
+                    <li>The application supports receiving files over the connected radio simulator.</li>
+                 </ul>
+              <p></p>
+              <p>
+                  In addition, the following deliverables are to be provided to General Dynamics:
+                 </p><ul>
+                    <li>A demonstration report of the solution</li>
+                    <li>All necessary source code</li>
+                    <li>Design documentation</li>
+                    <li>Design review material</li>
+                 </ul>
+              <p></p>
+              <p class="pad-bottom"></p>
+              <h3>Performance (Non-Functional) Requirements</h3>
+              <p>
+                  The following high-level non-functional requirements are as follows:
+                 </p><ul>
+                    <li>The application should not take longer than 30 seconds to load.</li>
+                    <li>The application should display a progress bar if the loading time takes longer than 3 seconds.</li>
+                    <li>The icon bar at the top of the screen should be updated every 0.5 to 2 seconds.</li>
+                    <li>The application should use safe colors to account for any color blindness such as Deuteranopia, Protanopia, and Tritanopia.</li>
+                 </ul>
+              <p></p>
+              <p class="pad-bottom"></p>
+              <h3>Environmental Requirements</h3>
+              <p>
+                  The following high-level environmental requirements are as follows:
+                 </p><ul>
+                    <li>The application should be compatible with android versions 12, 13, and 14, with primary focus on android 13.</li>
+                    <li>The application should be able to send and receive emails up to 20 MB each.</li>
+                    <li>The application should support up to 10 emails queued for transmission.</li>
+                 </ul>
+              <p></p>
+           </div>
+        </section>
+     
+        <!-- Footer section -->
+        <section id="footer-section">
+           <div id="footer-nav" style="background-color:  #141515;">
+              <div id="footer-logo">
+                 <img src="pictures/RM_logo.png" class="card-img-top img-fluid center" alt="Logo">
+              </div>
+              <div class="footer-container">
+                 <div class="footer-column">
+                    <h3>About</h3>
+                    <ul>
+                       <li><a href="./project_description.html">Project Description</a></li>
+                       <li><a href="./index.html#team-section">Team Members</a></li>
+                       <li><a target="_blank" rel="noopener noreferrer" href="https://gdmissionsystems.com/">Sponsor Website</a></li>
+                    </ul>
+                 </div>
+                 <div class="footer-column">
+                    <h3>Technical Details</h3>
+                    <ul>
+                       <li><a href="./solution.html">Envisioned Solution</a></li>
+                       <li><a href="./requirements.html">Project Requirements</a></li>
+                       <li><a href="./technologies.html">Technologies</a></li>
+                    </ul>
+                 </div>
+                 <div class="footer-column">
+                    <h3>Documentation</h3>
+                    <ul>
+                       <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Operation-RM">Source Code</a></li>
+                       <li><a href="./schedule.html">Schedule</a></li>
+                       <li><a href="./documents.html">Documents</a></li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </section>
+     
+     
+           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+           
+     
+        
+     </body>
+
+     <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">  
+        <meta name="milestone" content="Portfolio">
+        <title>Operation RM</title>  
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&amp;family=Poppins:wght@300&amp;display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="timeline.css" rel="stylesheet" type="text/css">
+      </head>
+
+      <body data-new-gr-c-s-check-loaded="14.1199.0" data-gr-ext-installed="">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-dark">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-items">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <a href="./index.html" class="navbar-brand">
+               <i class="bi bi-house-door"></i>
+           </a>
+           <div class="collapse navbar-collapse" id="nav-items">
+               <ul class="nav navbar-nav left_space">
+                   <li class="nav-item dropdown">
+                       <a href="#" class="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                       <div class="dropdown-menu " aria-labelledby="aboutDropdown">
+                           <a class="dropdown-item " href="./index.html#team-section">Meet the Team</a>
+                           <a class="dropdown-item " href="./index.html#learn_more">Learn More</a>
+                       </div>
+                   </li>
+                   <li class="nav-item dropdown">
+                       <a href="#" class="nav-link dropdown-toggle" id="projectDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project Details</a>
+                       <div class="dropdown-menu drop_menu" aria-labelledby="projectDropdown">
+                           <a class="dropdown-item " href="./project_description.html">Project Description</a>
+                           <a class="dropdown-item " href="./solution.html">Envisioned Solution</a>
+                           <a class="dropdown-item " href="./requirements.html">Requirements</a>
+                           <a class="dropdown-item " href="./technologies.html">Technologies</a>
+                       </div>
+                   </li>
+                   <li class="nav-item">
+                       <a href="./documents.html" class="nav-link">Documents</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="./schedule.html" class="nav-link">Schedule</a>
+                   </li>
+               </ul>
+           </div>
+       </nav>
+        <section id="sched_background_image">
+           <div class="card">
+              <div class="container">
+                  <div class="face">
+                     <img src="pictures/RM_logo.png" class="card-img-top img-fluid center" alt="Logo">
+                  </div>
+              </div>
+              <div class="card-body container">
+                <h1 class="card-title">Project Schedule</h1>
+              </div>
+            </div>
+        </section>
+     
+        <!--
+        <section id="schedule">
+           <div>
+              <h1>Schedule</h1>
+              <p>
+                 <div class="image_container">
+                    <img src="pictures/gantt.png"></img>
+                 </div>
+              </p>
+           </div>
+        </section>
+        -->
+     
+        <section class="timeline">
+           <div class="container py-5">
+             <div class="main-timeline-2">
+               <div class="timeline-2 left-2">
+                 <div class="card image_grow">
+                   <img src="./pictures/standards.jpg" class="card-img-top" alt="Responsive image">
+                   <div class="card-body p-4">
+                     <h4 class="fw-bold mb-4"><a href="./documents.html">Team Standards &amp; Initial Evaluation</a></h4>
+                     <p class="dates">September 2023</p>
+                     <p class="mb-0">Initial project evaluation, including determining basic requirements and
+                       desired solution from the client. Creation of a list of standards to be followed by
+                       team members and establish procedure.
+                     </p>
+                   </div>
+                 </div>
+               </div>
+               <div class="timeline-2 right-2">
+                 <div class="card image_grow">
+                   <img src="./pictures/feasibility.jpg" class="card-img-top" alt="Responsive image">
+                   <div class="card-body p-4">
+                     <h4 class="fw-bold mb-4"><a href="./documents.html">Feasibility Analysis</a></h4>
+                     <p class="dates">October 2023</p>
+                     <p class="mb-0">Determining risks the solution may impose. Identifying potential candidates 
+                       for tools, methods, and solutions.</p>
+                   </div>
+                 </div>
+               </div>
+               <div class="timeline-2 left-2">
+                 <div class="card image_grow">
+                   <img src="./pictures/requirements.jpg" class="card-img-top" alt="Responsive image">
+                   <div class="card-body p-4">
+                     <h4 class="fw-bold mb-4"><a href="./documents.html">Requirements Acquisition</a></h4>
+                     <p class="dates">Early November 2023</p>
+                     <p class="mb-0">Finalizing a set of requirements for the project. Determining all functional,
+                       non-functional, and environmental requirements through discussions with General Dynamics Mission Systems.
+                     </p>
+                   </div>
+                 </div>
+               </div>
+               <div class="timeline-2 right-2">
+                 <div class="card image_grow">
+                   <img src="./pictures/prototyping.jpg" class="card-img-top" alt="Responsive image">
+                   <div class="card-body p-4">
+                     <h4 class="fw-bold mb-4"><a href="./documents.html">Initial Prototyping</a></h4>
+                     <p class="dates">November 2023</p>
+                     <p class="mb-0">Developing an initial prototype of the mobile application. Primarily focusing on UI development,
+                       while also ensuring compatibility with the radio simulator.
+                     </p>
+                   </div>
+                 </div>
+               </div>
+               <div class="timeline-2 left-2">
+                 <div class="card image_grow">
+                       <img src="./pictures/connectivity.jpg" class="card-img-top" alt="Responsive image">
+                   <div class="card-body p-4">
+                     <h4 class="fw-bold mb-4"><a href="./document.html">Connectivity &amp; Testbeds</a></h4>
+                     <p class="dates">December 2023</p>
+                     <p class="mb-0">Ensuring connectivity between the mobile application and the radio modem.
+                       Developing testbeds to streamline the development process.
+                     </p>
+                   </div>
+                 </div>
+               </div>
+               <div class="timeline-2 right-2">
+                 <div class="card image_grow">
+                   <img src="./pictures/transfer.jpg" class="card-img-top" alt="Responsive image">
+                   <div class="card-body p-4">
+                     <h4 class="fw-bold mb-4"><a href="./document.html">File Transfer Operations</a></h4>
+                     <p class="dates">January 2023</p>
+                     <p class="mb-0">Adding file transfer operations to the prototype. Both sending and receiving using
+                       the selected waveform.
+                     </p>
+                   </div>
+                 </div>
+               </div>
+               <div class="timeline-2 left-2">
+                 <div class="card image_grow">
+                   <img src="./pictures/software.jpg" class="card-img-top" alt="Responsive image">
+                   <div class="card-body p-4">
+                     <h4 class="fw-bold mb-4"><a href="./document.html">Testing &amp; Validation</a></h4>
+                     <p class="dates">March 2024</p>
+                     <p class="mb-0">Ensuring the solution works and is robust. Validating the requirements
+                       through demonstrations with General Dynamics Mission Systems.
+                     </p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="timeline-2 right-2">
+               <div class="card image_grow">
+                 <img src="./pictures/deployment.jpg" class="card-img-top" alt="Responsive image">
+                 <div class="card-body p-4 ">
+                   <h4 class="fw-bold mb-4"><a href="./document.html">Deployement &amp; Delivery</a></h4>
+                   <p class="dates">April 2023</p>
+                   <p class="mb-0">Deployement of the application, sending source code and documentation
+                       to General Dynamics Mission Systems.
+                   </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </section>
+     
+        <!-- Footer section -->
+       <section id="footer-section">
+         <div id="footer-nav" style="background-color:  #141515;">
+             <div id="footer-logo">
+               <img src="pictures/RM_logo.png" class="card-img-top img-fluid center" alt="Logo">
+             </div>
+             <div class="footer-container">
+               <div class="footer-column">
+                   <h3>About</h3>
+                   <ul>
+                     <li><a href="./project_description.html">Project Description</a></li>
+                     <li><a href="./index.html#team-section">Team Members</a></li>
+                     <li><a target="_blank" rel="noopener noreferrer" href="https://gdmissionsystems.com/">Sponsor Website</a></li>
+                   </ul>
+               </div>
+               <div class="footer-column">
+                   <h3>Technical Details</h3>
+                   <ul>
+                     <li><a href="./solution.html">Envisioned Solution</a></li>
+                     <li><a href="./requirements.html">Project Requirements</a></li>
+                     <li><a href="./technologies.html">Technologies</a></li>
+                   </ul>
+               </div>
+               <div class="footer-column">
+                   <h3>Documentation</h3>
+                   <ul>
+                     <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Operation-RM">Source Code</a></li>
+                     <li><a href="./schedule.html">Schedule</a></li>
+                     <li><a href="./documents.html">Documents</a></li>
+                   </ul>
+               </div>
+             </div>
+         </div>
+       </section>
+     
+     
+           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+           
+     
+        
+     </body>
+
+     <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</html>
