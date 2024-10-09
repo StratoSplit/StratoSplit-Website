@@ -85,7 +85,7 @@ body{
      width: 100%;
      text-align: center;
      color:#070913;
-     background-color: #8393e2;
+     background-color: #2347fb;
      min-height: 500px;
   }
   
@@ -291,7 +291,7 @@ body{
   }
   
   #documents-section i:hover{
-    color: #8393e2;
+    color: #2347fb;
   }
   
   .row i{
@@ -510,7 +510,7 @@ body{
    #schedule{
      padding: 50px;
      min-height: 100px;
-     background-color: #8393e2;
+     background-color: #2347fb;
    }
   
    #schedule h1 {
@@ -576,11 +576,11 @@ body{
    }
   
    .gray {
-     color: #8393e2;
+     color: #2347fb;
    }
   
    .dates-2 {
-     color: #8393e2;
+     color: #2347fb;
    }
   
    .image-container{
